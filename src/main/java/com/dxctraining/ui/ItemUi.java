@@ -17,8 +17,8 @@ public class ItemUi {
     @PostConstruct
     public void runUi(){
         try {
-            Item item1 = new Item("yasaswini");
-            Item item2 = new Item("sahithi");
+            Item item1 = new Item("book");
+            Item item2 = new Item("pendrive");
             item1 = service.save(item1);
             item2 = service.save(item2);
 
